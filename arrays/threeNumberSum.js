@@ -1,5 +1,6 @@
 // Write a function that takes in a non-empty array of **distinct** integers and an integer representing a targetSum. The function should find all triplets in the array that sum up to the target sum and return a 2-d array of all these triplets. The numbers in each triplet should be ordered in ascending order, and the triplets themselves should be ordered in ascending order with respect to the numbers they hold. If no three numbers sum up to the targetSum, return an empty array.
 
+// O(n^2) time | O(N) space
 function threeNumberSum(arr, targetSum) {
   arr.sort((a, b) => a - b);
   const triplets = [];
