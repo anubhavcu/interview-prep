@@ -58,7 +58,7 @@ class MinHeap {
     // siftDown on each parent node , starting from the last one, so we go to last element of array, and find its parent
     let firstParentNode = Math.floor((this.array.length - 2) / 2);
     for (let i = firstParentNode; i >= 0; i--) {
-      this.siftDown(i, array.length, array);
+      this.siftDown(i, array.length - 1, array);
     }
     return array;
   }
