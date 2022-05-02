@@ -30,4 +30,4 @@ const graph = {
   f: [],
 };
 
-dephtFirstPrint(graph, 'a');
+dephtFirstPrint(graph, 'a'); // a, b, d, f, c, e

@@ -19,4 +19,4 @@ const graph = {
   f: [],
 };
 
-breadthFirstPrint(graph, 'a');
+breadthFirstPrint(graph, 'a'); // a, b, c, d, e, f

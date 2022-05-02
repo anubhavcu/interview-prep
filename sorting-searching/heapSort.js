@@ -42,3 +42,5 @@ function swap(i, j, array) {
   array[i] = array[j];
   array[j] = temp;
 }
+
+// we are essentially building a max heap in the begining, and moving the max element to the end, and also at the same time, maintaining heap property;
