@@ -13,6 +13,7 @@ var objFunc1 = greeting.bind(obj, 25, 'Delhi');
 objFunc1('bind');
 // bind
 Function.prototype.myBind = function (obj, ...args) {
+	console.log('inside my bind', this);
   var fn = this;
   return function (...params) {
     //     fn.call(obj, ...[...args, ...params]);
