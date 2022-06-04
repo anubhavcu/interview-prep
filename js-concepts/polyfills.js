@@ -13,7 +13,7 @@ var objFunc1 = greeting.bind(obj, 25, 'Delhi');
 objFunc1('bind');
 // bind
 Function.prototype.myBind = function (obj, ...args) {
-	console.log('inside my bind', this);
+  // => here this will point to function invoking it, i.e. greeting function.
   var fn = this;
   return function (...params) {
     //     fn.call(obj, ...[...args, ...params]);
