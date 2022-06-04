@@ -10,7 +10,7 @@
 // ]
 
 // o/p : [1, 2, 2, 2, 5]
-
+// O(wh) time | O(wh) space
 function riverSizes(matrix) {
   const sizes = [];
   const visited = matrix.map((item) => item.map((value) => false)); // initializing each row/column to be false
