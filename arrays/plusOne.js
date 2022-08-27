@@ -37,5 +37,6 @@ let a = [1, 2, 3];
 console.log(plusOne(a));
 
 // * js one-liner
-// ! caveat - each number in array will be of string type ...
+// ! caveat - NOT passing all cases in leetcode(check later) 
+// ! - each number in array will be of string type ...
 console.log((Number(a.join('')) + 1).toString().split(''));
